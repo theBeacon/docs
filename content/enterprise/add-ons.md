@@ -1,11 +1,11 @@
 <!--
 order: 21
-title: npm Enterprise Add-ons
+title: npm Enterprise Add-Ons
 keywords: add-on, enterprise
 featured: true
 -->
 
-# npm Enterprise Add-ons
+# npm Enterprise Add-Ons
 
 Add-ons allow third-party developer tools to integrate directly into npm Enterprise.
 This allows npm Enterprise to be augmented with powerful functionality, such as: vulnerability scanning, license auditing, and code quality analysis.
@@ -21,7 +21,7 @@ Add-ons are installed via the `npme` admin tool on your Enterprise server:
 4. that's all there is to it, visit the npm Enterprise website to
    view the newly installed add-on:
 
-![npm Enterprise Add-ons](/images/npme-addon.png)
+![npm Enterprise Add-Ons](/images/npme-addon.png)
 
 ## Add-Ons Currently Available
 
