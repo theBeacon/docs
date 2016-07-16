@@ -21,13 +21,11 @@ Add-ons are installed via the `npme` admin tool on your Enterprise server:
 4. that's all there is to it, visit the npm Enterprise website to
    view the newly installed add-on:
 
-![npm Enterprise Add-Ons](/images/npme-addon.png)
-
 ## Add-Ons Currently Available
 
 ### Node Security
 
-* website: https://nodesecurity.io/
+* homepage: https://nodesecurity.io/
 * installation: `npme addon nodesecurity`
 
 The Node Security team audits modules Enterprises depend on and then surface this  security information in the Node Security Platform. For years, the nsp tool has been a pivotal source of intelligence on vulnerabilities in Node dependencies.
@@ -35,9 +33,11 @@ The Node Security team audits modules Enterprises depend on and then surface thi
 The npm Enterprise Node Security add-on provides this information in the sidebar of the module detail page. By clicking the sidebar, a user receives a more detailed
 description of the vulnerability.
 
+![Node Security](/images/npme-node-security.png)
+
 ### FOSSA
 
-* website: http://fossa.io/
+* homepage: http://fossa.io/
 * installation: `npme addon http://{fossa_host}/api/services/npm`
 
 FOSSA’s Licenses add-on proactively assesses both public and proprietary packages in a company’s npmE registry to identify licensing issues and obligations. npmE users will be able to view an at-a-glance summary of a package’s licensing impact online before deciding to download and integrate into their products.
@@ -45,15 +45,19 @@ FOSSA’s Licenses add-on proactively assesses both public and proprietary packa
 FOSSA runs as an appliance securely behind your firewall, contact
 support@fossa.io to get started with this add-on.
 
+![FOSSA](/images/npme-fossa.png)
+
 ### bitHound
 
-* website: https://www.bithound.io/
+* homepage: https://www.bithound.io/
 * installation: `npme install addon https://www.bithound.io/npm/plugin.json`
 
 Once the bitHound Addon is activated (via email post installation), you will start seeing bitHound package metrics and insights. This will show up on the right hand side where you're already used to seeing npm provided information.
 
 This information provides valuable insight into the health of the open-source
 dependencies your company is building on top of.
+
+![bitHound](/images/npme-bithound.png)
 
 ## Writing Your Own Add-On
 
